@@ -1,0 +1,14 @@
+value1 = input("Please enter value1: ")
+value2 = input("Please enter value2: ")
+value3 = input("Please enter value3: ")
+value4 = input("Please enter value4: ")
+value5 = input("Please enter value5: ")
+
+print("value1= " + str(value1) + ", value2= " + str(value2) + ", value3= " + str(value3) + ", value4= " + str(value4) + ", value5= " + str(value5) )
+
+print("value1= {} and type of value1 is {}" .format(value1,type(value1)))
+print("value2= {} and type of value2 is {}" .format(value2,type(value2)))
+typevalue3 = type(value3)
+print("value3= {} and type of value3 is {}" .format(value3,typevalue3))
+print(f'value4= {value4} and type of value4 is {type(value4)}')
+print(f'value5= {value5} and type of value1 is {type(value5)}')
